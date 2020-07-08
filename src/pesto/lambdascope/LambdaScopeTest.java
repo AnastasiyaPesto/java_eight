@@ -2,7 +2,7 @@ package pesto.lambdascope;
 
 import pesto.functionalinterface.Converter;
 
-public class LambdaScope {
+public class LambdaScopeTest {
 	public static void main(String[] args) {
 		// Accessing local variables
 		int num = 1;
@@ -14,5 +14,6 @@ public class LambdaScope {
 		System.out.println(stringConverter.convert(2));
 
 		// Accessing fields and static variables
+
 	}
 }
